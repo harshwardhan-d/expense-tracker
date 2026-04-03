@@ -27,14 +27,14 @@ function Navbar({ activePage, setActivePage }) {
 
   return (
     <Box bg={bg} px={6} py={4} boxShadow="sm">
-      {/* Main row */}
+    
       <Flex align="center">
-        {/* Logo */}
+ 
         <Text fontSize="xl" fontWeight="bold" color={color}>
           💰 SpendSmart
         </Text>
 
-        {/* Desktop Links — hidden on mobile */}
+
         <HStack spacing={6} ml={10} display={{ base: "none", md: "flex" }}>
           <Link
             bg={activePage === "dashboard" ? activeLinkBg : "transparent"}
@@ -70,7 +70,7 @@ function Navbar({ activePage, setActivePage }) {
             _hover={{ bg: "teal.600" }}
           />
 
-          {/* Hamburger — only visible on mobile */}
+         
           <IconButton
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
             onClick={onToggle}
@@ -82,7 +82,7 @@ function Navbar({ activePage, setActivePage }) {
         </HStack>
       </Flex>
 
-      {/* Mobile Menu — shows when hamburger is clicked */}
+      
       {isOpen && (
         <VStack
           display={{ base: "flex", md: "none" }}

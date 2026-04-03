@@ -1,7 +1,7 @@
 import { Box, useColorModeValue } from "@chakra-ui/react";
 import Navbar from "./components/Navbar";
 import { useState } from "react";
-// Add these at the top
+
 import Dashboard from "./components/Pages/Dashboard";
 import Transactions from "./components/Pages/Transactions";
 import Budget from "./components/Pages/Budget";
