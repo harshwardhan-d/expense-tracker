@@ -1,16 +1,53 @@
-# React + Vite
+# 💰 SpendSmart - Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly expense tracker built with React and Chakra UI.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Click here to view live](https://expense-tracker-flax-xi-23.vercel.app/)
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📊 Dashboard with balance, income and expense summary
+- 💸 Add and delete transactions
+- 🥧 Budget overview with pie chart
+- 🏆 Top 3 expense categories
+- 🌙 Dark mode support
+- 📱 Fully responsive design
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Chakra UI v2
+- Recharts
+- Vite
+
+## 📦 Installation
+
+​```bash
+# Clone the repo
+git clone https://github.com/harshwardhan-d/expense-tracker.git
+
+# Go into the folder
+cd expense-tracker
+
+# Install dependencies
+npm install
+
+# Start the app
+npm run dev
+​```
+
+## 📸 Pages
+
+- **Dashboard** — shows total balance, income, expenses and recent transactions
+- **Transactions** — add and delete income/expense transactions
+- **Budget** — pie chart of spending by category and top 3 expenses
+
+## 🤝 Contributing
+
+Pull requests are welcome!
+
+## 📄 License
+
+MIT
